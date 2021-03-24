@@ -42,12 +42,9 @@ Author : [@rauenzi](https://github.com/rauenzi)<br/>
 Reponsitory : [https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/RoleMembers](https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/RoleMembers)
 
 **Show Hidden Channels** (Server Owners don't like this xD)<br/>
-
 Author : [@mwittrien](https://github.com/mwittrien)<br/>
 Reponsitory : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ShowHiddenChannels/](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ShowHiddenChannels/)
 
 **Typing Indicator**<br/>
-
 Author : [@l0c4lh057](https://github.com/l0c4lh057)<br/>
 Reponsitory : [https://github.com/l0c4lh057/BetterDiscordStuff/tree/master/Plugins/TypingIndicator](https://github.com/l0c4lh057/BetterDiscordStuff/tree/master/Plugins/TypingIndicator)
-
