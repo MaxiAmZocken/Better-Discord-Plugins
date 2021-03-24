@@ -1,6 +1,6 @@
 # Credits
 
-**Animated Status**<br/>
+**Animated Status** [https://img.shields.io/badge/Download-↓-brightgreen](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MaxiAmZocken/Maxis-Top-BD-Plugins/blob/main/Animated_Status.plugin.js) <br/> 
 Author : [@1Toothless](https://github.com/1Toothless)<br/>
 Reponsitory : [https://github.com/1Toothless/BetterDiscord-Animated-Status](https://github.com/1Toothless/BetterDiscord-Animated-Status)
 
