@@ -1,6 +1,6 @@
 # Credits
 
-**Animated Status**<br/>
+**Animated Status** <br/> 
 Author : [@1Toothless](https://github.com/1Toothless)<br/>
 Reponsitory : [https://github.com/1Toothless/BetterDiscord-Animated-Status](https://github.com/1Toothless/BetterDiscord-Animated-Status)
 
@@ -45,3 +45,4 @@ Reponsitory : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plug
 
 Author : [@l0c4lh057](https://github.com/l0c4lh057)<br/>
 Reponsitory : [https://github.com/l0c4lh057/BetterDiscordStuff/tree/master/Plugins/TypingIndicator](https://github.com/l0c4lh057/BetterDiscordStuff/tree/master/Plugins/TypingIndicator)
+
