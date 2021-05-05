@@ -27,6 +27,10 @@ Responsitory : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plu
 Author : [@1Lighty](https://github.com/1Lighty)<br/>
 Repository : [https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/InAppNotifications](https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/InAppNotifications)
 
+**Game Activity Toggle**<br/>
+Author : [@mwittrien](https://github.com/mwittrien)<br/>
+Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GameActivityToggle](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GameActivityToggle)
+
 **Message Logger V2**<br/>
 Author : [@1Lighty](https://github.com/1Lighty) & [@clv-2](https://github.com/clv-2)<br/>
 Repository : [https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/MessageLoggerV2](https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/MessageLoggerV2)
