@@ -5,6 +5,8 @@
 [Download-link]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MaxiAmZocken/Better-Discord-Plugins/tree/main/Plugins
 [Download-badge]: https://img.shields.io/badge/Download-↓-brightgreen
 
+Download Better Discord here : [Better Discord Website](https://betterdiscord.app/)
+
 These are my favorite discord Plugins :
 
 **Animated Status** <br/> 
