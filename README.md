@@ -17,21 +17,18 @@ Repository : [https://github.com/1Toothless/BetterDiscord-Animated-Status](https
 Author : [@Strencher](https://github.com/Strencher)<br/>
 Repository : [https://github.com/Strencher/avatar-icon-viewer](https://github.com/Strencher/avatar-icon-viewer)
 
-**Badges Everywhere**<br/>
-Author : [@mwittrien](https://github.com/mwittrien)<br/>
-Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/BadgesEverywhere/](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/BadgesEverywhere/)
-
 **Creation Date**<br/>
 Author : [@mwittrien](https://github.com/mwittrien)<br/>
 Responsitory : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/CreationDate](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/CreationDate)
+
+**Game Activity Toggle**<br/>
+Author : [@mwittrien](https://github.com/mwittrien)<br/>
+Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GameActivityToggle](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GameActivityToggle)
 
 **In App Notification**<br/>
 Author : [@1Lighty](https://github.com/1Lighty)<br/>
 Repository : [https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/InAppNotifications](https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/InAppNotifications)
 
-**Game Activity Toggle**<br/>
-Author : [@mwittrien](https://github.com/mwittrien)<br/>
-Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GameActivityToggle](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GameActivityToggle)
 
 **Message Logger V2**<br/>
 Author : [@1Lighty](https://github.com/1Lighty) & [@clv-2](https://github.com/clv-2)<br/>
@@ -48,6 +45,10 @@ Repository : [https://github.com/Metalloriff/BetterDiscordPlugins/blob/master/Pr
 **Role Members**<br/>
 Author : [@rauenzi](https://github.com/rauenzi)<br/>
 Repository : [https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/RoleMembers](https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/RoleMembers)
+
+**Show Badges in Chat**<br/>
+Author : [@mwittrien](https://github.com/mwittrien)<br/>
+Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ShowBadgesInChat/](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ShowBadgesInChat/)
 
 **Show Hidden Channels** (Server Owners don't like this xD)<br/>
 Author : [@mwittrien](https://github.com/mwittrien)<br/>
