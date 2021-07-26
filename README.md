@@ -25,6 +25,10 @@ Responsitory : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plu
 Author : [@mwittrien](https://github.com/mwittrien)<br/>
 Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GameActivityToggle](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GameActivityToggle)
 
+**Guild Profile**<br/>
+Author : [@jaimeadf](https://github.com/jaimeadf)<br/>
+Repository : [https://github.com/jaimeadf/BetterDiscordPlugins/blob/e72fbf6e7d8a4acf9fe76f9bbdb1b6933eeeb9b5/dist/GuildProfile/GuildProfile.plugin.js](https://github.com/jaimeadf/BetterDiscordPlugins/blob/e72fbf6e7d8a4acf9fe76f9bbdb1b6933eeeb9b5/dist/GuildProfile/GuildProfile.plugin.js)
+
 **In App Notification**<br/>
 Author : [@1Lighty](https://github.com/1Lighty)<br/>
 Repository : [https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/InAppNotifications](https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/InAppNotifications)
@@ -45,6 +49,10 @@ Repository : [https://github.com/Metalloriff/BetterDiscordPlugins/blob/master/Pr
 **Role Members**<br/>
 Author : [@rauenzi](https://github.com/rauenzi)<br/>
 Repository : [https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/RoleMembers](https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/RoleMembers)
+
+**Send Large Messages**<br/>
+Author : [@mwittrien](https://github.com/mwittrien)<br/>
+Repository : [https://github.com/mwittrien/BetterDiscordAddons/blob/master/Plugins/SplitLargeMessages/SplitLargeMessages.plugin.js](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Plugins/SplitLargeMessages/SplitLargeMessages.plugin.js)
 
 **Show Badges in Chat**<br/>
 Author : [@mwittrien](https://github.com/mwittrien)<br/>
