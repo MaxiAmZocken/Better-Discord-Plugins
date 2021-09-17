@@ -29,15 +29,6 @@ Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugi
 Author : [@jaimeadf](https://github.com/jaimeadf)<br/>
 Repository : [https://github.com/jaimeadf/BetterDiscordPlugins/blob/e72fbf6e7d8a4acf9fe76f9bbdb1b6933eeeb9b5/dist/GuildProfile/GuildProfile.plugin.js](https://github.com/jaimeadf/BetterDiscordPlugins/blob/e72fbf6e7d8a4acf9fe76f9bbdb1b6933eeeb9b5/dist/GuildProfile/GuildProfile.plugin.js)
 
-**In App Notification**<br/>
-Author : [@1Lighty](https://github.com/1Lighty)<br/>
-Repository : [https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/InAppNotifications](https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/InAppNotifications)
-
-
-**Message Logger V2**<br/>
-Author : [@1Lighty](https://github.com/1Lighty) & [@clv-2](https://github.com/clv-2)<br/>
-Repository : [https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/MessageLoggerV2](https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/MessageLoggerV2)
-
 **Permissions Viewer**<br/>
 Author : [@rauenzi](https://github.com/rauenzi)<br/>
 Repository : [https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/PermissionsViewer](https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/PermissionsViewer)
