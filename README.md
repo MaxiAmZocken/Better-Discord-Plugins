@@ -7,9 +7,9 @@
 
 Download Better Discord here : [Better Discord Website](https://betterdiscord.app/)
 
-These are my favorite discord Plugins :
+These are my favorite Discord Plugins :
 
-**Animated Status** <br/> 
+**Animated Status (Broken)** <br/> 
 Author : [@1Toothless](https://github.com/1Toothless)<br/>
 Repository : [https://github.com/1Toothless/BetterDiscord-Animated-Status](https://github.com/1Toothless/BetterDiscord-Animated-Status)
 
@@ -21,13 +21,13 @@ Repository : [https://github.com/Strencher/avatar-icon-viewer](https://github.co
 Author : [@mwittrien](https://github.com/mwittrien)<br/>
 Responsitory : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/CreationDate](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/CreationDate)
 
-**Game Activity Toggle**<br/>
+**Friend Notification**<br/>
 Author : [@mwittrien](https://github.com/mwittrien)<br/>
-Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GameActivityToggle](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/GameActivityToggle)
+Responsitory : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/FriendNotifications/](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/FriendNotifications/)
 
-**Guild Profile**<br/>
-Author : [@jaimeadf](https://github.com/jaimeadf)<br/>
-Repository : [https://github.com/jaimeadf/BetterDiscordPlugins/blob/e72fbf6e7d8a4acf9fe76f9bbdb1b6933eeeb9b5/dist/GuildProfile/GuildProfile.plugin.js](https://github.com/jaimeadf/BetterDiscordPlugins/blob/e72fbf6e7d8a4acf9fe76f9bbdb1b6933eeeb9b5/dist/GuildProfile/GuildProfile.plugin.js)
+**InAppNotification**<br/>
+Author : [@QWERTxD](https://github.com/QWERTxD)<br/>
+Responsitory : [https://github.com/QWERTxD/BetterDiscordPlugins/tree/main/InAppNotifications](https://github.com/QWERTxD/BetterDiscordPlugins/tree/main/InAppNotifications)
 
 **Permissions Viewer**<br/>
 Author : [@rauenzi](https://github.com/rauenzi)<br/>
@@ -41,10 +41,6 @@ Repository : [https://github.com/Metalloriff/BetterDiscordPlugins/blob/master/Pr
 Author : [@rauenzi](https://github.com/rauenzi)<br/>
 Repository : [https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/RoleMembers](https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/RoleMembers)
 
-**Send Large Messages**<br/>
-Author : [@mwittrien](https://github.com/mwittrien)<br/>
-Repository : [https://github.com/mwittrien/BetterDiscordAddons/blob/master/Plugins/SplitLargeMessages/SplitLargeMessages.plugin.js](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Plugins/SplitLargeMessages/SplitLargeMessages.plugin.js)
-
 **Show Badges in Chat**<br/>
 Author : [@mwittrien](https://github.com/mwittrien)<br/>
 Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ShowBadgesInChat/](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ShowBadgesInChat/)
@@ -52,6 +48,15 @@ Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugi
 **Show Hidden Channels** (Server Owners don't like this xD)<br/>
 Author : [@mwittrien](https://github.com/mwittrien)<br/>
 Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ShowHiddenChannels/](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ShowHiddenChannels/)
+
+**Split Large Messages**<br/>
+Author : [@mwittrien](https://github.com/mwittrien)<br/>
+Repository : [https://github.com/mwittrien/BetterDiscordAddons/blob/master/Plugins/SplitLargeMessages/SplitLargeMessages.plugin.js](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Plugins/SplitLargeMessages/SplitLargeMessages.plugin.js)
+
+
+**Translator**<br/>
+Author : [@mwittrien](https://github.com/mwittrien)<br/>
+Repository : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/Translator/](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/Translator/)
 
 **Typing Indicator**<br/>
 Author : [@l0c4lh057](https://github.com/l0c4lh057)<br/>

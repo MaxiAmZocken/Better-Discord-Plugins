@@ -22,12 +22,12 @@ module.exports = (_ => {
 		},
 		"changeLog": {
 			"improved": {
-				"Threads": "Works flawlessly with Threads now"
+				"Threads": "Works flawlessly with Threads now."
 			}
 		}
 	};
 
-	return (window.Lightcord || window.LightCord) ? class {
+	return (window.Lightcord && !Node.prototype.isPrototypeOf(window.Lightcord) || window.LightCord && !Node.prototype.isPrototypeOf(window.LightCord) || window.Astra && !Node.prototype.isPrototypeOf(window.Astra)) ? class {
 		getName () {return config.info.name;}
 		getAuthor () {return config.info.author;}
 		getVersion () {return config.info.version;}
