@@ -63,4 +63,4 @@ Author : [@l0c4lh057](https://github.com/l0c4lh057)<br/>
 Repository : [https://github.com/l0c4lh057/BetterDiscordStuff/tree/master/Plugins/TypingIndicator](https://github.com/l0c4lh057/BetterDiscordStuff/tree/master/Plugins/TypingIndicator)
 
 
-I haven't coded any of these plugins, all credit goes to teir authors that are linked under each plugin
+I haven't coded any of these plugins, all credit goes to their authors that are linked under each plugin
