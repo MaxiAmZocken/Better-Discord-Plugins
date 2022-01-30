@@ -9,10 +9,6 @@ Download Better Discord here : [Better Discord Website](https://betterdiscord.ap
 
 These are my favorite Discord Plugins :
 
-**Animated Status (Broken)** <br/> 
-Author : [@1Toothless](https://github.com/1Toothless)<br/>
-Repository : [https://github.com/1Toothless/BetterDiscord-Animated-Status](https://github.com/1Toothless/BetterDiscord-Animated-Status)
-
 **Avatar Icon Viewer**<br/>
 Author : [@Strencher](https://github.com/Strencher)<br/>
 Repository : [https://github.com/Strencher/avatar-icon-viewer](https://github.com/Strencher/avatar-icon-viewer)
@@ -24,10 +20,6 @@ Responsitory : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plu
 **Friend Notification**<br/>
 Author : [@mwittrien](https://github.com/mwittrien)<br/>
 Responsitory : [https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/FriendNotifications/](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/FriendNotifications/)
-
-**InAppNotification**<br/>
-Author : [@QWERTxD](https://github.com/QWERTxD)<br/>
-Responsitory : [https://github.com/QWERTxD/BetterDiscordPlugins/tree/main/InAppNotifications](https://github.com/QWERTxD/BetterDiscordPlugins/tree/main/InAppNotifications)
 
 **Permissions Viewer**<br/>
 Author : [@rauenzi](https://github.com/rauenzi)<br/>
