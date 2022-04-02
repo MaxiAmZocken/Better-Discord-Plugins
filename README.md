@@ -18,7 +18,7 @@ Author : [@mwittrien](https://github.com/mwittrien)<br/>
 Responsitory : https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/CreationDate
 
 **MessageLoggerV2**<br/>
-Author : [1Lighty](https://github.com/1Lighty)
+Author : [1Lighty](https://github.com/1Lighty)<br/>
 Repository : https://github.com/1Lighty/BetterDiscordPlugins/tree/master/Plugins/MessageLoggerV2
 
 **Permissions Viewer**<br/>
