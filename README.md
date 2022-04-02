@@ -30,11 +30,11 @@ Author : [@Metalloriff](https://github.com/Metalloriff) and [@1Lighty](https://g
 Repository : https://github.com/Metalloriff/BetterDiscordPlugins/blob/master/PreventSpotifyAutoPause.plugin.js
 
 **QuickView**<br/>
-Author : [https://github.com/qwerasd205](https://github.com/qwerasd205)
+Author : [https://github.com/qwerasd205](https://github.com/qwerasd205)<br/>
 Repository : https://github.com/qwerasd205/BDPlugins/blob/508e00773ecc4dfbaa6e072a308f7b5aeffd8d09/QuickView
 
 **Remove Chat Buttons**<br/>
-Author : [QbDesu](https://github.com/QbDesu)
+Author : [QbDesu](https://github.com/QbDesu)<br/>
 Repository : https://github.com/QbDesu/BetterDiscordAddons/tree/potato/Plugins/RemoveChatButtons
 
 **Role Members**<br/>
