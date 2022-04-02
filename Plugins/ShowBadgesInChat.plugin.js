@@ -2,7 +2,7 @@
  * @name ShowBadgesInChat
  * @author DevilBro
  * @authorId 278543574059057154
- * @version 1.8.2
+ * @version 1.8.8
  * @description Displays Badges (Nitro, Hypesquad, etc...) in the Chat/MemberList/DMList
  * @invite Jx3TjNS
  * @donate https://www.paypal.me/MircoWittrien
@@ -17,20 +17,12 @@ module.exports = (_ => {
 		"info": {
 			"name": "ShowBadgesInChat",
 			"author": "DevilBro",
-			"version": "1.8.2",
+			"version": "1.8.8",
 			"description": "Displays Badges (Nitro, Hypesquad, etc...) in the Chat/MemberList/DMList"
 		}
 	};
 	
-	return (window.Lightcord && !Node.prototype.isPrototypeOf(window.Lightcord) || window.LightCord && !Node.prototype.isPrototypeOf(window.LightCord) || window.Astra && !Node.prototype.isPrototypeOf(window.Astra)) ? class {
-		getName () {return config.info.name;}
-		getAuthor () {return config.info.author;}
-		getVersion () {return config.info.version;}
-		getDescription () {return "Do not use LightCord!";}
-		load () {BdApi.alert("Attention!", "By using LightCord you are risking your Discord Account, due to using a 3rd Party Client. Switch to an official Discord Client (https://discord.com/) with the proper BD Injection (https://betterdiscord.app/)");}
-		start() {}
-		stop() {}
-	} : !window.BDFDB_Global || (!window.BDFDB_Global.loaded && !window.BDFDB_Global.started) ? class {
+	return !window.BDFDB_Global || (!window.BDFDB_Global.loaded && !window.BDFDB_Global.started) ? class {
 		getName () {return config.info.name;}
 		getAuthor () {return config.info.author;}
 		getVersion () {return config.info.version;}
@@ -99,10 +91,10 @@ module.exports = (_ => {
 					}
 				};
 				
-				for (let key of Object.keys(BDFDB.LibraryComponents.UserBadgesKeys).filter(n => isNaN(parseInt(n)))) {
+				for (let key of Object.keys(BDFDB.LibraryModules.UserBadgeKeys).filter(n => isNaN(parseInt(n)))) {
 					let basicKey = key.replace(/_LEVEL_\d+/g, "");
 					if (!this.defaults.badges[basicKey]) this.defaults.badges[basicKey] = {value: true, keys: []};
-					this.defaults.badges[basicKey].keys.push(BDFDB.LibraryComponents.UserBadgesKeys[key]);
+					this.defaults.badges[basicKey].keys.push(BDFDB.LibraryModules.UserBadgeKeys[key]);
 				}
 				
 				this.css = `
@@ -289,19 +281,23 @@ module.exports = (_ => {
 
 			processPrivateChannel (e) {
 				if (!e.instance.props.user || !this.settings.places.dmsList) return;
-				if (typeof e.returnvalue.props.children == "function") {
-					let childrenRender = e.returnvalue.props.children;
-					e.returnvalue.props.children = BDFDB.TimeUtils.suppress((...args) => {
+				let wrapper = e.returnvalue && e.returnvalue.props.children && e.returnvalue.props.children.props && typeof e.returnvalue.props.children.props.children == "function" ? e.returnvalue.props.children : e.returnvalue;
+				if (typeof wrapper.props.children == "function") {
+					let childrenRender = wrapper.props.children;
+					wrapper.props.children = BDFDB.TimeUtils.suppress((...args) => {
 						let children = childrenRender(...args);
-						children.props.decorators = [children.props.decorators].flat(10);
-						this.injectBadges(children.props.decorators, e.instance.props.user, null, "dms");
+						this._processPrivateChannel(e.instance, children);
 						return children;
-					}, "", this);
+					}, "Error in Children Render of PrivateChannel!", this);
 				}
-				else {
-					e.returnvalue.props.decorators = [e.returnvalue.props.decorators].flat(10);
-					this.injectBadges(e.returnvalue.props.decorators, e.instance.props.user, null, "dms");
-				}
+				else this._processPrivateChannel(e.instance, wrapper);
+			}
+
+			_processPrivateChannel (instance, returnvalue, a) {
+				const wrapper = returnvalue.props.decorators ? returnvalue : BDFDB.ReactUtils.findChild(returnvalue, {props: ["decorators"]}) || returnvalue;
+				if (!wrapper) return;
+				wrapper.props.decorators = [wrapper.props.decorators].flat(10);
+				this.injectBadges(wrapper.props.decorators, instance.props.user, null, "dms");
 			}
 			
 			processUserProfileBadgeList (e) {
@@ -400,13 +396,14 @@ module.exports = (_ => {
 					wrappers.push(this.createBadges(user, null, "settings"));
 				}
 				else for (let key of this.defaults.badges[flag].keys) {
-					let userFlag = flag == "PREMIUM" || flag == "PREMIUM_GUILD_SUBSCRIPTION" ? 0 : BDFDB.DiscordConstants.UserFlags[flag];
-					let keyName = BDFDB.LibraryComponents.UserBadgesKeys[key];
+					let userFlag = flag == "PREMIUM" || flag == "GUILD_BOOSTER" ? 0 : BDFDB.DiscordConstants.UserFlags[flag];
+					let keyName = BDFDB.LibraryModules.UserBadgeKeys[key];
 					if (userFlag == null && keyName) userFlag = BDFDB.DiscordConstants.UserFlags[keyName] != null ? BDFDB.DiscordConstants.UserFlags[keyName] : BDFDB.DiscordConstants.UserFlags[Object.keys(BDFDB.DiscordConstants.UserFlags).find(f => f.indexOf(keyName) > -1 || keyName.indexOf(f) > -1)];
+					console.log(key, userFlag, keyName);
 					if (userFlag != null) {
 						let id;
 						if (flag == "PREMIUM") id = specialFlag + "NITRO";
-						else if (keyName && keyName.startsWith("PREMIUM_GUILD_SUBSCRIPTION")) id = specialFlag + "GB_" + keyName.split("_").pop();
+						else if (keyName && keyName.startsWith("GUILD_BOOSTER")) id = specialFlag + "GB_" + keyName.split("_").pop();
 						let user = new BDFDB.DiscordObjects.User({flags: userFlag, id: id});
 						wrappers.push(this.createBadges(user, null, "settings"));
 					}
