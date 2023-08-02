@@ -1,3 +1,5 @@
+# I STOPPED USING BETTER DISCORD, SO THIS REPOSITORY WILL BE ACHIEVENT AND WONT BE UPDATED
+
 # Credits
 
 [![Downloader][Download-badge]][Download-link]<br/>
